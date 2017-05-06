@@ -1,0 +1,21 @@
+[package]
+name = "serde08"
+version = "0.8.0"
+authors = ["David Tolnay <dtolnay@gmail.com>"]
+license = "MIT/Apache-2.0"
+description = "Re-export of serde::*"
+repository = "https://github.com/serde-rs/legacy"
+keywords = ["serde"]
+include = ["Cargo.toml", "src/lib.rs", "LICENSE-APACHE", "LICENSE-MIT"]
+
+[dependencies]
+serde = { version = "0.8", default-features = false }
+
+[features]
+default = ["std"]
+
+alloc = ["serde/alloc"]
+collections = ["serde/collections"]
+std = ["serde/std"]
+unstable = ["serde/unstable"]
+unstable-testing = ["serde/unstable-testing"]

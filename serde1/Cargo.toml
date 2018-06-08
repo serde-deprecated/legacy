@@ -15,9 +15,7 @@ serde = { version = "1.0", default-features = false }
 default = ["std"]
 
 alloc = ["serde/alloc"]
-collections = ["serde/collections"]
 derive = ["serde/derive"]
-playground = ["serde/playground"]
 rc = ["serde/rc"]
 std = ["serde/std"]
 unstable = ["serde/unstable"]

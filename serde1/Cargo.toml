@@ -2,7 +2,7 @@
 name = "serde1"
 version = "1.0.1"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
-license = "MIT/Apache-2.0"
+license = "MIT OR Apache-2.0"
 description = "Re-export of serde::*"
 repository = "https://github.com/serde-rs/legacy"
 keywords = ["serde"]

@@ -18,3 +18,6 @@ num-bigint = ["serde/num-bigint"]
 num-complex = ["serde/num-complex"]
 num-impls = ["serde/num-impls"]
 num-rational = ["serde/num-rational"]
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]

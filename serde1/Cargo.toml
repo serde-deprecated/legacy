@@ -19,3 +19,6 @@ derive = ["serde/derive"]
 rc = ["serde/rc"]
 std = ["serde/std"]
 unstable = ["serde/unstable"]
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]

@@ -19,3 +19,6 @@ collections = ["serde/collections"]
 std = ["serde/std"]
 unstable = ["serde/unstable"]
 unstable-testing = ["serde/unstable-testing"]
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]

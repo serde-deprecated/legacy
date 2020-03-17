@@ -19,3 +19,6 @@ collections = ["serde/collections"]
 nightly = ["serde/nightly"]
 nightly-testing = ["serde/nightly-testing"]
 std = ["serde/std"]
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]
